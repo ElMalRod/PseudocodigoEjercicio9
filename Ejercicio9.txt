@@ -1,0 +1,23 @@
+Algoritmo Ejercicio9
+	Definir acum,prom,acum2,n,prom2 Como Real
+	Dimension T1[100]
+	Dimension  T2[100]
+	acum<-0
+	acum2<-0
+	n<-0
+	Para i<-1 Hasta 4 Con Paso 1 Hacer
+		Escribir  "Ingrese Temperatura 1. ",i
+		Leer T1[i]
+		Escribir  "Ingrese Temperatura 2. ",i
+		Leer T2[i]
+		n=n+1
+	Fin Para
+	Para i<-1 Hasta 4 Con Paso 1 Hacer
+		acum<-acum+T1[i]
+		acum2<-acum2+T2[i]
+	Fin Para
+	prom<-acum/n
+	prom2<-acum2/n
+	Escribir "El promedio de T1 es: ",prom
+	Escribir "El promedio de T2 es: ",prom2
+FinAlgoritmo
